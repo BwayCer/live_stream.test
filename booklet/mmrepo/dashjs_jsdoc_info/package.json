@@ -1,0 +1,11 @@
+{
+  "name": "dashjs_jsdoc",
+  "description": "關於 dashjs 的文件。",
+  "scripts": {
+    "jsdoc": "node node_modules/.bin/jsdoc -c jsdoc_conf.json -d ../dashjs_jsdoc"
+  },
+  "devDependencies": {
+    "ink-docstrap": "^1.1.1",
+    "jsdoc": "^3.4.0"
+  }
+}
